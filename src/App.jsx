@@ -1,5 +1,5 @@
 
-import Navbar from './components/NAvbar'
+import Navbar from './components/Navbar'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Shop from './pages/Shop'
 import ProductCategory from './pages/ProductCategory'
@@ -11,7 +11,6 @@ import men_banner from './components/Assets/banner_mens.png'
 import women_banner from './components/Assets/banner_women.png'
 import kid_banner from './components/Assets/banner_kids.png'
 import ShopContextProvider from './components/Context/Context'
-import CartItems from './components/CartItems/CartItems'
 function App() {
 
   return (
@@ -31,7 +30,7 @@ function App() {
     <Route path='/cart' element={<Cart/>}/>
     <Route path='/login' element={<LoginSignUp/>}/>
     </Routes>
-    {/* <Footer></Footer> */}
+    <Footer></Footer>
     </BrowserRouter>
     </ShopContextProvider>
 
