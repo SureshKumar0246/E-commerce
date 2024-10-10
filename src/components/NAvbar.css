@@ -1,0 +1,76 @@
+.Navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+    box-shadow: 0 1px 3px -2px #000;
+}
+
+.NavLogo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.NavLogo p {
+    color: #171717;
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.Navmenu {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: #626262;
+    gap: 20px;
+    list-style: none;
+    font-weight: 500;
+}
+
+.Navmenu li {
+    cursor: pointer;
+}
+
+.Navmenu hr {
+    border: none;
+    width: 80%;
+    height: 3px;
+    background: #ff4141;
+    border-radius: 10px;
+    /* transition: translateX(20) 1s */
+}
+
+.NAvLogincart {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+
+.NAvLogincart button {
+    width: 157px;
+    height: 58px;
+    outline: none;
+    border: 1px solid #7a7aa7;
+    border-radius: 75px;
+    font-size: 20px;
+    font-weight: 500;
+    background: #fff;
+    cursor: pointer;
+}
+
+.NAvLogincart button:active {
+    background: #f3f3f3;
+}
+
+.navCartCpunt {
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -35px;
+    margin-left: -55px;
+    border-radius: 11px;
+    font-size: 14xp;
+    background: red;
+}
